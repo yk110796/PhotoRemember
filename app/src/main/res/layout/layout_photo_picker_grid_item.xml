@@ -12,7 +12,7 @@
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
     >
-    <com.kairos.photoremember.view.SquareImageView
+    <com.yhsoft.photoremember.view.SquareImageView
 
         android:id="@+id/photo_imageview"
         android:layout_width="match_parent"
@@ -20,7 +20,7 @@
         android:scaleType="centerCrop"
         />
 
-    <com.kairos.photoremember.view.CircleImageView
+    <com.yhsoft.photoremember.view.CircleImageView
         android:id="@+id/photo_checked"
         android:layout_width="20dp"
         android:layout_height="20dp"

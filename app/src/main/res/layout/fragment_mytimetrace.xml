@@ -63,7 +63,7 @@
                 android:layout_weight="2.5"
                 android:background="#ffffffff">
 
-                <com.kairos.photoremember.view.TLView
+                <com.yhsoft.photoremember.view.TLView
                     android:id="@+id/tl_content"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent" />

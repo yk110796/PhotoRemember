@@ -232,7 +232,7 @@ ADDED from AndroidManifest.xml:44:9
 		ADDED from AndroidManifest.xml:45:13
 	android:value
 		ADDED from AndroidManifest.xml:46:13
-activity#com.kairos.photrace.activity.SplashActivity
+activity#com.yhsoft.photrace.activity.SplashActivity
 ADDED from AndroidManifest.xml:48:9
 	android:screenOrientation
 		ADDED from AndroidManifest.xml:49:13
@@ -248,7 +248,7 @@ category#android.intent.category.LAUNCHER
 ADDED from AndroidManifest.xml:52:17
 	android:name
 		ADDED from AndroidManifest.xml:52:27
-activity#com.kairos.photrace.activity.PhoTraceActivity
+activity#com.yhsoft.photrace.activity.PhoTraceActivity
 ADDED from AndroidManifest.xml:56:9
 	android:screenOrientation
 		ADDED from AndroidManifest.xml:58:13
@@ -256,7 +256,7 @@ ADDED from AndroidManifest.xml:56:9
 		ADDED from AndroidManifest.xml:59:13
 	android:name
 		ADDED from AndroidManifest.xml:57:13
-activity#com.kairos.photrace.activity.PhotoDetailActivity
+activity#com.yhsoft.photrace.activity.PhotoDetailActivity
 ADDED from AndroidManifest.xml:62:9
 	android:label
 		ADDED from AndroidManifest.xml:65:9
@@ -268,7 +268,7 @@ ADDED from AndroidManifest.xml:62:9
 		ADDED from AndroidManifest.xml:67:9
 	android:name
 		ADDED from AndroidManifest.xml:63:9
-activity#com.kairos.photrace.activity.MarkerPhotoDetailActivity
+activity#com.yhsoft.photrace.activity.MarkerPhotoDetailActivity
 ADDED from AndroidManifest.xml:69:9
 	android:label
 		ADDED from AndroidManifest.xml:72:13
@@ -280,7 +280,7 @@ ADDED from AndroidManifest.xml:69:9
 		ADDED from AndroidManifest.xml:74:13
 	android:name
 		ADDED from AndroidManifest.xml:70:13
-activity#com.kairos.photrace.activity.SliderActivity
+activity#com.yhsoft.photrace.activity.SliderActivity
 ADDED from AndroidManifest.xml:76:9
 	android:label
 		ADDED from AndroidManifest.xml:79:13
@@ -298,7 +298,7 @@ ADDED from AndroidManifest.xml:83:9
 		ADDED from AndroidManifest.xml:85:13
 	android:name
 		ADDED from AndroidManifest.xml:84:13
-receiver#com.kairos.photrace.NetworkStatusChecker
+receiver#com.yhsoft.photrace.NetworkStatusChecker
 ADDED from AndroidManifest.xml:88:9
 	android:name
 		ADDED from AndroidManifest.xml:88:19

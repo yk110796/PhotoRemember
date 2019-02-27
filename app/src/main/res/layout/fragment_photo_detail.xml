@@ -26,13 +26,13 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_below="@+id/header">
-            <com.kairos.photoremember.view.ResizeImageView
+            <com.yhsoft.photoremember.view.ResizeImageView
                 android:id="@+id/display_image"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:scaleType="centerCrop"
                 >
-            </com.kairos.photoremember.view.ResizeImageView>
+            </com.yhsoft.photoremember.view.ResizeImageView>
 
 
         </LinearLayout>

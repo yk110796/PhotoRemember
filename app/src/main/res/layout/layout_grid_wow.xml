@@ -16,7 +16,7 @@
     android:background="@color/color_white">
 
 
-    <com.kairos.photoremember.view.CircleImageView
+    <com.yhsoft.photoremember.view.CircleImageView
         android:id="@+id/image_item"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

@@ -41,7 +41,7 @@
             android:indeterminateOnly="true"
             android:visibility="visible"
             />
-       <!-- <com.kairos.photrace.view.ExpandableGridView
+       <!-- <com.yhsoft.photrace.view.ExpandableGridView
             android:id="@+id/gridview"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

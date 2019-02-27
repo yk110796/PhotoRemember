@@ -113,7 +113,7 @@ ADDED from AndroidManifest.xml:41:9
 		ADDED from AndroidManifest.xml:42:13
 	android:value
 		ADDED from AndroidManifest.xml:43:13
-activity#com.kairos.photrace.activity.SplashActivity
+activity#com.yhsoft.photrace.activity.SplashActivity
 ADDED from AndroidManifest.xml:45:9
 	android:screenOrientation
 		ADDED from AndroidManifest.xml:46:13
@@ -129,7 +129,7 @@ category#android.intent.category.LAUNCHER
 ADDED from AndroidManifest.xml:49:17
 	android:name
 		ADDED from AndroidManifest.xml:49:27
-activity#com.kairos.photrace.activity.PhoTraceActivity
+activity#com.yhsoft.photrace.activity.PhoTraceActivity
 ADDED from AndroidManifest.xml:53:9
 	android:screenOrientation
 		ADDED from AndroidManifest.xml:55:13
@@ -143,7 +143,7 @@ ADDED from AndroidManifest.xml:58:9
 		ADDED from AndroidManifest.xml:60:13
 	android:name
 		ADDED from AndroidManifest.xml:59:13
-receiver#com.kairos.photrace.NetworkStatusChecker
+receiver#com.yhsoft.photrace.NetworkStatusChecker
 ADDED from AndroidManifest.xml:63:9
 	android:name
 		ADDED from AndroidManifest.xml:63:19
