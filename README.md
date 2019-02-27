@@ -1,3 +1,0 @@
-# PhoTrace
-PhoTrace Android Application
-
