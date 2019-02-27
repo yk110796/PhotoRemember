@@ -1,0 +1,41 @@
+<!--
+  ~ Copyright (c) 2015-2020 Kairos, Inc.
+  ~
+  ~ Kairos is a registered trademark of Kairos Inc. Any copyright, patent and
+  ~ trademark notice(s) contained herein or in related code, files or
+  ~ documentation shall not be altered and shall be included in all copies and
+  ~ substantial portions of the software.
+  -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/filter_grid_vertical_spacing"
+    android:orientation="vertical"
+    android:background="@color/color_white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.kairos.photoremember.view.CircleImageView
+            android:id="@+id/image_item"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/filter_grid_internal_margin"
+        android:layout_gravity="center_horizontal"
+        android:textSize="12sp"
+        android:textColor="@color/text_color_circular"
+        />
+
+</LinearLayout>

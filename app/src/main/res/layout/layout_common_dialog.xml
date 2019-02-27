@@ -1,0 +1,24 @@
+<!--
+  ~ Copyright (c) 2015-2020 Kairos, Inc.
+  ~
+  ~ Kairos is a registered trademark of Kairos Inc. Any copyright, patent and
+  ~ trademark notice(s) contained herein or in related code, files or
+  ~ documentation shall not be altered and shall be included in all copies and
+  ~ substantial portions of the software.
+  -->
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:background="@color/color_white">
+
+    <ListView
+        android:id="@+id/common_dialog_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        />
+
+</RelativeLayout>

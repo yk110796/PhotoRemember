@@ -1,0 +1,54 @@
+<!--
+  ~ Copyright (c) 2015-2020 Kairos, Inc.
+  ~
+  ~ Kairos is a registered trademark of Kairos Inc. Any copyright, patent and
+  ~ trademark notice(s) contained herein or in related code, files or
+  ~ documentation shall not be altered and shall be included in all copies and
+  ~ substantial portions of the software.
+  -->
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@null">
+
+    <TextView
+        android:id="@+id/mtt_photo_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:textSize="15sp"
+        android:textColor="@color/text_color_photobucket_date"
+        android:gravity="center_vertical"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="4dp"/>
+
+    <TextView
+        android:id="@+id/mtt_photo_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignBaseline="@+id/mtt_photo_date"
+        android:layout_toRightOf="@+id/mtt_photo_date"
+        android:textSize="15sp"
+        android:gravity="center_vertical"
+        android:textColor="@color/text_color_photobucket_count"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"/>
+
+    <com.kairos.photoremember.view.ExpandableGridView
+        android:id="@+id/mtt_photo_grid"
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/mtt_photo_date"
+        android:clickable="true"
+        android:horizontalSpacing="3dp"
+        android:verticalSpacing="3dp"
+        />
+       <!--2015.1.13 1dp margin add-->
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<!--
+  ~ Copyright (c) 2015-2020 Kairos, Inc.
+  ~
+  ~ Kairos is a registered trademark of Kairos Inc. Any copyright, patent and
+  ~ trademark notice(s) contained herein or in related code, files or
+  ~ documentation shall not be altered and shall be included in all copies and
+  ~ substantial portions of the software.
+  -->
+
+<resources>
+    <!-- Example customization of dimensions originally defined in res/values/dimens.xml
+         (such as screen margins) for screens with more than 820dp of available width. This
+         would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively). -->
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+</resources>

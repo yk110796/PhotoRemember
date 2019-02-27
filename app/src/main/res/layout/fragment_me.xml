@@ -1,0 +1,297 @@
+<!--
+  ~ Copyright (c) 2015-2016 Kairos, Inc.
+  ~
+  ~ Kairos is a registered trademark of Kairos, Inc. Any copyright, patent and
+  ~ trademark notice(s) contained herein or in related code, files or
+  ~ documentation shall not be altered and shall be included in all copies and
+  ~ substantial portions of the software.
+  -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:background="@color/color_white"
+    android:weightSum="1">
+
+
+    <include layout="@layout/header_image_image"/>
+
+    <FrameLayout
+        android:id="@+id/divider_under_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/filter_page_divider"
+        android:layout_below="@+id/header_layout"
+        android:background="@color/divider_color_filter_page"
+
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView4"
+        android:layout_below="@+id/header_layout">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <FrameLayout
+                android:id="@+id/main_habitat"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/divider_color_filter_page"
+                >
+
+                <TextView
+                    android:layout_width="375dp"
+                    android:layout_height="wrap_content"
+                    android:text="I live in "
+                    android:id="@+id/main_habitat_title"
+                    android:textColor="@color/color_black"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_marginLeft="20dp"/>
+
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Seoul Cheong Dam"
+                android:id="@+id/main_habitat_text"
+                android:textColor="@color/color_black"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                />
+
+            <FrameLayout
+                android:id="@+id/one_day_total_movement"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/divider_color_filter_page"
+                >
+
+                <TextView
+                    android:layout_width="375dp"
+                    android:layout_height="wrap_content"
+                    android:text="One day total movement"
+                    android:id="@+id/one_day_total_movement_title"
+                    android:textColor="@color/color_black"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_marginLeft="20dp"/>
+
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="25 Km"
+                android:id="@+id/one_day_total_movement_text"
+                android:textColor="@color/color_black"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                />
+
+            <FrameLayout
+                android:id="@+id/my_interest"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/divider_color_filter_page"
+                >
+
+                <TextView
+                    android:layout_width="375dp"
+                    android:layout_height="wrap_content"
+                    android:text="Interest"
+                    android:id="@+id/my_interest_title"
+                    android:textColor="@color/color_black"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_marginLeft="20dp"/>
+
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Golf"
+                android:id="@+id/my_interest_text"
+                android:textColor="@color/color_black"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                />
+
+            <FrameLayout
+                android:id="@+id/main_travel_place"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/divider_color_filter_page"
+                >
+
+                <TextView
+                    android:layout_width="375dp"
+                    android:layout_height="wrap_content"
+                    android:text="Main Travel Place"
+                    android:id="@+id/main_travel_place_title"
+                    android:textColor="@color/color_black"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_marginLeft="20dp"/>
+
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Kang Won Do"
+                android:id="@+id/main_travel_place_text"
+                android:textColor="@color/color_black"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                />
+
+            <FrameLayout
+                android:id="@+id/life_pattern"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/divider_color_filter_page"
+                >
+
+                <TextView
+                    android:layout_width="375dp"
+                    android:layout_height="wrap_content"
+                    android:text="Life Pattern"
+                    android:id="@+id/life_pattern_title"
+                    android:textColor="@color/color_black"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_marginLeft="20dp"/>
+
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Enjoing leisure Office worker"
+                android:id="@+id/life_pattern_text"
+                android:textColor="@color/color_black"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                />
+
+            <FrameLayout
+                android:id="@+id/favorite_food"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/divider_color_filter_page"
+                >
+
+                <TextView
+                    android:layout_width="375dp"
+                    android:layout_height="wrap_content"
+                    android:text="Favorite food "
+                    android:id="@+id/favorite_food_title"
+                    android:textColor="@color/color_black"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_marginLeft="20dp"/>
+
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Spaghetti"
+                android:id="@+id/favorite_food_text"
+                android:textColor="@color/color_black"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                />
+
+            <FrameLayout
+                android:id="@+id/the_best_partner"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/divider_color_filter_page"
+                >
+
+                <TextView
+                    android:layout_width="375dp"
+                    android:layout_height="wrap_content"
+                    android:text="The Best Partner"
+                    android:id="@+id/the_best_partner_title"
+                    android:textColor="@color/color_black"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_marginLeft="20dp"/>
+
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="David, James"
+                android:id="@+id/the_best_partner_text"
+                android:textColor="@color/color_black"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                />
+
+            <FrameLayout
+                android:id="@+id/my_relationship"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/divider_color_filter_page"
+                >
+
+                <TextView
+                    android:layout_width="375dp"
+                    android:layout_height="wrap_content"
+                    android:text="Relationship "
+                    android:id="@+id/my_relationship_title"
+                    android:textColor="@color/color_black"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_marginLeft="20dp"/>
+
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Wide-raging relationship"
+                android:id="@+id/my_relationship_text"
+                android:textColor="@color/color_black"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                />
+
+            <FrameLayout
+                android:id="@+id/my_hobby"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/divider_color_filter_page"
+                >
+
+                <TextView
+                    android:layout_width="375dp"
+                    android:layout_height="wrap_content"
+                    android:text="Hobby"
+                    android:id="@+id/my_hobby_title"
+                    android:textColor="@color/color_black"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_marginLeft="20dp"/>
+
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Sports"
+                android:id="@+id/my_hobby_text"
+                android:textColor="@color/color_black"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

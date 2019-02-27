@@ -1,0 +1,48 @@
+<!--
+  ~ Copyright (c) 2015-2020 Kairos, Inc.
+  ~
+  ~ Kairos is a registered trademark of Kairos Inc. Any copyright, patent and
+  ~ trademark notice(s) contained herein or in related code, files or
+  ~ documentation shall not be altered and shall be included in all copies and
+  ~ substantial portions of the software.
+  -->
+
+<fragment
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/map"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    >
+    <LinearLayout
+        android:id="@+id/map_add_view"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_white"
+        android:layout_gravity="bottom">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Title"
+            android:textColor="@color/color_black"
+            android:id="@+id/title_onmap"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"/>
+
+          <TextView
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:textColor="@color/color_black"
+                android:id="@+id/address_onmap" />
+         </LinearLayout>
+</fragment>

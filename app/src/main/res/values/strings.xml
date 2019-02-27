@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2015-2020 Kairos, Inc.
+  ~
+  ~ Kairos is a registered trademark of Kairos Inc. Any copyright, patent and
+  ~ trademark notice(s) contained herein or in related code, files or
+  ~ documentation shall not be altered and shall be included in all copies and
+  ~ substantial portions of the software.
+  -->
+
+<resources>
+
+    <string name="app_name">PhoTrace</string>
+    <string name="empty"></string>
+    <string name="action_settings">Settings</string>
+    <string name="PrevBtn">Previous</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="photrace_title">Photrace</string>
+    <string name="title_login">Login</string>
+    <string name="title_traceline">Trace Line</string>
+    <string name="title_mytimetrace">My Time Trace</string>
+    <string name="title_mylocaltrace">My Local Trace</string>
+    <string name="title_bestrace">BesTrace</string>
+    <string name="title_trash">Trash</string>
+    <string name="title_service_info">Service Information</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_owner_page">Owners Page</string>
+    <string name="title_store_set">Manage Store Main</string>
+    <string name="title_introduction_product">Product Inftroduction</string>
+
+    <string name="title_introduction_product_period">Period Product</string>
+    <string name="title_introduction_product_charge">Charging Product</string>
+    <string name="title_charge">Charge</string>
+    <string name="title_charge_done">Charge Done</string>
+    <string name="title_store_registation">Store registration</string>
+    <string name="title_detail_usage">Detail of Usage</string>
+    <string name="title_charge_detail_usage">Detail of Charge</string>
+
+    <string name="title_select_store">Select Store</string>
+    <string name="title_setting_store">Select Setting</string>
+    <string name="title_select_product">Select product</string>
+    <string name="title_select_place">Select visit places</string>
+    <!--<string name="title_select_theme">Select theme</string>-->
+    <!--<string name="title_select_people">Select friends</string>-->
+
+    <!--<string name="title_theme_edit">Edit Theme</string>-->
+
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="done">Done</string>
+    <string name="post">Post</string>
+    <string name="next">Next</string>
+    <string name="select_all">Select All</string>
+
+    <!--<string name="theme_photo_count">(%1$d)</string>-->
+
+    <!--<string name="title_wow">%1$s Wows</string>-->
+    <!--<string name="title_wow_empty">Wow Up!</string>-->
+
+    <!--<string name="title_comment">%1$s comments</string>-->
+
+    <!-- My page screen -->
+    <string name="title_my_page">My</string>
+    <string name="title_my_friend">Friend</string>
+    <string name="title_my_page_coupon">Coupon</string>
+    <string name="title_my_page_option">Options</string>
+    <string name="title_my_introduction">Introduction</string>
+    <string name="title_me">Me?</string>
+    <string name="title_my_profile">My Profile</string>
+    <string name="title_my_agreement">Agreement</string>
+    <string name="title_my_bookmark">Bookmark</string>
+
+
+    <string name="photo_detail_title_empty">Write the title of this photo</string>
+    <string name="photo_detail_desc_empty">Write the description</string>
+    <string name="place_empty">There is no place. Please add new place information.</string>
+    <string name="theme_empty">There is no theme. Please register through Edit - Theme Registration.</string>
+
+
+    <string name="comment_hint">Write a comment...</string>
+
+    <!-- Theme Register screen -->
+    <string name="title_theme_register">Theme Registration</string>
+    <string name="select_theme_category">Select Theme Category</string>
+    <string name="input_title">Title</string>
+    <string name="input_contents">Contents</string>
+    <string name="expose_level_public">Public</string>
+    <string name="expose_level_friend">Friends</string>
+    <string name="expose_level_private">Only Me</string>
+    <string name="expose_public_desc">Anyone can view and share this theme</string>
+    <string name="expose_friend_desc">Only friends can view and share this theme</string>
+    <string name="expose_private_desc">Only you can see this theme</string>
+    <string name="add_photos">Add Photos</string>
+    <string name="add_photo_info">Add Information</string>
+    <string name="edit_photo_info">Edit Information</string>
+    <string name="photo_infomation">Photo Information</string>
+    <string name="list_photos">All Photos</string>
+    <string name="large_photo">Large Photo</string>
+    <string name="drop_ticker">Drop !</string>
+    <string name="photo_picker_desc">Add or Delete the Photo by Dragging</string>
+    <string name="photo_picker_title">Selected photos will be added to %1$s"</string>
+    <string name="theme_main_photo_title">Select Main Photo</string>
+
+    <string name="theme_main_photo_desc">The main photo of theme will be set with the photo which is selected first. If you want to change the main photo, please selects from below photo list.</string>
+
+    <string name="search_list_comment">Write a search text...</string>
+
+    <string name="theme_category_life">Life</string>
+    <string name="theme_category_domestic">Domestic</string>
+    <string name="theme_category_overseas">Overseas</string>
+    <string name="theme_category_business">Business</string>
+    <string name="theme_category_honeymoon">Honeymoon</string>
+    <string name="theme_category_show">Show</string>
+    <string name="theme_category_family">Family</string>
+    <string name="theme_category_date">date</string>
+    <string name="theme_category_celebrate">Celebrate</string>
+    <string name="theme_category_sports">Sports</string>
+
+    <string name="photo_detail_title">Photo Details</string>
+    <string name="photo_detail_place_guide">Where is here? Register the Place</string>
+    <string name="photo_detail_friend_guide">Add friends in this photo</string>
+    <string name="photo_detail_theme_guide">Add/Choose theme</string>
+
+    <string name="photo_detail_place_list">Search List</string>
+    <string name="photo_detail_place_map">Search Map</string>
+
+    <!--for card view-->
+     <string name="title_activity_card_view">CardViewActivity</string>
+    <string name="cardview_contents">This is a CardView widget. CardView widgets can have
+        shadows and rounded corners.
+        \n\nTo create a card with a shadow, use the <font fgcolor="#FFFFFFFF">android:elevation</font>
+        attribute.
+        \n\nTo set the corner radius in your layouts, use the <font
+            fgcolor="#FFFFFFFF">card_view:cardCornerRadius</font> attribute.
+    </string>
+    <string name="cardview_radius_seekbar_text">Radius</string>
+    <string name="cardview_elevation_seekbar_text">Elevation</string>
+
+
+
+    <string name = "app_id">765809840192684</string>
+
+    <string name="title_activity_photo_detail">PhotoDetailActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

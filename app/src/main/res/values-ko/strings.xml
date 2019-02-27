@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2015-2020 Kairos, Inc.
+  ~
+  ~ Kairos is a registered trademark of Kairos Inc. Any copyright, patent and
+  ~ trademark notice(s) contained herein or in related code, files or
+  ~ documentation shall not be altered and shall be included in all copies and
+  ~ substantial portions of the software.
+  -->
+
+<resources>
+    <string name="app_name">PhoTrace</string>
+  <string name="PrevBtn">이전</string>
+  <string name="action_settings">설정</string>
+  <string name="add_photo_info">사진 정보 기록하기</string>
+  <string name="add_photos">사진 추가</string>
+  <string name="cancel">취소</string>
+  <string name="comment_hint">댓글을 입력하세요</string>
+  <string name="confirm">확인</string>
+  <string name="delete">삭제</string>
+  <string name="done">완료</string>
+  <string name="drawer_text_about"></string>
+  <string name="drop_ticker">놓으세요</string>
+  <string name="edit">편집</string>
+  <string name="expose_friend_desc">친구만 이 테마를 볼 수 있습니다</string>
+  <string name="expose_level_friend">친구공개</string>
+  <string name="expose_level_private">비공개</string>
+  <string name="expose_level_public">전체공개</string>
+  <string name="expose_private_desc">비공개 테마입니다</string>
+  <string name="expose_public_desc">공개 테마입니다</string>
+  <string name="input_contents">내용을 입력하세요</string>
+  <string name="input_title">제목을 입력하세요</string>
+  <string name="next">다음</string>
+  <string name="photo_detail_friend_guide">사진의 동반자를 추가하세요</string>
+  <string name="photo_detail_place_guide">사진의 장소를 등록하세요</string>
+  <string name="photo_detail_theme_guide">사진의 테마를 추가 또는 선택하세요</string>
+  <string name="photo_detail_title">사진 상세 정보</string>
+  <string name="photo_infomation">사진 정보</string>
+  <string name="photo_picker_desc">사진을 옮겨서 추가 또는 삭제하세요</string>
+  <string name="photo_picker_title">선택된 사진들은 %1$s"에 추가됩니다</string>
+  <string name="place_empty">장소 정보가 없습니다. 새로운 장소를 등록하세요.</string>
+  <string name="post"></string>
+  <string name="select_all">전체 선택</string>
+  <string name="select_theme_category">테마 분류를 선택하세요</string>
+  <string name="theme_category_business">비지니스</string>
+  <string name="theme_category_celebrate">축하</string>
+  <string name="theme_category_date">데이트</string>
+  <string name="theme_category_domestic">국내 여행</string>
+  <string name="theme_category_family">가족</string>
+  <string name="theme_category_honeymoon">신혼 여행</string>
+  <string name="theme_category_life">일상</string>
+  <string name="theme_category_overseas">해외 여행</string>
+  <string name="theme_category_show">전시회</string>
+  <string name="theme_category_sports">스포츠</string>
+  <string name="theme_empty">테마 정보가 없습니다. 편집 - 테마 등록을 통해 새로운 테마를 등록하세요.</string>
+  <string name="theme_main_photo_desc">테마의 대표 사진은 선택된 사진들의 첫 번째 사진으로 지정됩니다. 다른 사진으로 설정하시려면 아래의 사진 리스트에서 원하시는 사진을 선택하세요.</string>
+  <string name="theme_main_photo_title">대표 사진 선택</string>
+  <string name="title_login">로그인</string>
+  <string name="title_my_profile">프로필</string>
+  <string name="title_my_page_option">옵션</string>
+  <string name="title_select_people">동반자 선택</string>
+  <string name="title_select_place">사진의 장소를 선택하세요</string>
+  <string name="title_service_info">서비스 소개</string>
+  <string name="title_theme_edit">테마 편집</string>
+  <string name="title_theme_register">테마 등록</string>
+  <string name="title_trash">휴지통</string>
+  <string name="title_select_theme">테마 선택</string>
+  <string name="photo_detail_desc_empty">사진의 설명을 입력하세요</string>
+  <string name="photo_detail_place_list">목록에서 찾기</string>
+  <string name="photo_detail_place_map">지도에서 찾기</string>
+  <string name="photo_detail_title_empty">사진의 제목을 입력하세요</string>
+  <string name="search_list_comment">검색어를 입력하세요</string>
+  <string name="edit_photo_info">사진 정보 편집하기</string>
+</resources>

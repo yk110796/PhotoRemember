@@ -1,0 +1,29 @@
+# build output
+*.apk
+*.ap_
+
+# Dalvik VM
+*.dex
+
+# Java Classes
+*.class
+
+# Generated
+bin/
+gen/
+
+# Local property - SDK
+local.properties
+
+# Eclipse related
+.classpath
+.project
+
+# Android Studio related
+*.iml
+.idea/
+.gradle/
+build/
+
+# OSX
+.DS_Store

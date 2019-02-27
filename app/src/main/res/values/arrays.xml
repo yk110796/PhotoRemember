@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2015-2020 Kairos, Inc.
+  ~
+  ~ Kairos is a registered trademark of Kairos Inc. Any copyright, patent and
+  ~ trademark notice(s) contained herein or in related code, files or
+  ~ documentation shall not be altered and shall be included in all copies and
+  ~ substantial portions of the software.
+  -->
+
+<resources>
+
+    <string-array name="theme_catetory">
+        <item>@string/theme_category_life</item>
+        <item>@string/theme_category_domestic</item>
+        <item>@string/theme_category_overseas</item>
+        <item>@string/theme_category_business</item>
+        <item>@string/theme_category_honeymoon</item>
+        <item>@string/theme_category_show</item>
+        <item>@string/theme_category_family</item>
+        <item>@string/theme_category_date</item>
+        <item>@string/theme_category_celebrate</item>
+        <item>@string/theme_category_sports</item>
+    </string-array>
+
+</resources>

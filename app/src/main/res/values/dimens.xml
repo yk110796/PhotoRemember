@@ -1,0 +1,145 @@
+<!--
+  ~ Copyright (c) 2015-2020 Kairos, Inc.
+  ~
+  ~ Kairos is a registered trademark of Kairos Inc. Any copyright, patent and
+  ~ trademark notice(s) contained herein or in related code, files or
+  ~ documentation shall not be altered and shall be included in all copies and
+  ~ substantial portions of the software.
+  -->
+
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="swipe_progress_bar_height">8dp</dimen>
+
+    <dimen name="card_insets">0dp</dimen>
+    <dimen name="common_margin">15dp</dimen>
+
+    <!-- My page margin -->
+    <dimen name="header_height">46dp</dimen>
+    <dimen name="toolbar_height">44dp</dimen>
+    <dimen name="actionbar_horizontal_padding">6dp</dimen>
+    <dimen name="actionbar_vertical_padding">6dp</dimen>
+    <dimen name="actionbar_right_padding">8dp</dimen>
+    <dimen name="actionbar_left_padding">8dp</dimen>
+    <dimen name="toolbar_description_margin">13dp</dimen>
+
+    <dimen name="mytimetrace_filter_vertical_margin">14dp</dimen>
+    <dimen name="mytimetrace_filter_horizontal_margin">11dp</dimen>
+    <dimen name="mytimetrace_filter_icon_size">13dp</dimen>
+
+    <dimen name="photobucket_description_height">36dp</dimen>
+    <dimen name="photobucket_description_internal_padding">36dp</dimen>
+    <dimen name="photobucket_spacing">31dp</dimen>
+
+    <dimen name="photobucket_image_width_one">25dp</dimen>
+    <dimen name="photobucket_image_height_one">34dp</dimen>
+    <dimen name="photobucket_image_width_over_one">25dp</dimen>
+    <dimen name="photobucket_iamge_height_over_one">16dp</dimen>
+
+    <dimen name="photobucket_desc_top_spacing_over_one">10dp</dimen>
+    <dimen name="photobucket_desc_bottom_spacing_over_one">12dp</dimen>
+
+    <dimen name="filter_page_divider">2dp</dimen>
+    <dimen name="filter_selected_height">60dp</dimen>
+    <dimen name="filter_selected_spacing">10dp</dimen>
+    <dimen name="filter_selected_image_size">42dp</dimen>
+
+    <dimen name="filter_search_button_width">54dp</dimen>
+
+    <dimen name="filter_grid_horizontal_spacing">20dp</dimen>
+    <dimen name="filter_grid_vertical_spacing">30dp</dimen>
+    <dimen name="filter_grid_ticker_size">30dp</dimen>
+    <dimen name="filter_grid_internal_margin">8dp</dimen>
+
+    <dimen name="filter_selected_button_width">224dp</dimen>
+    <dimen name="filter_selected_button_height">144dp</dimen>
+
+    <!-- My page image size-->
+    <dimen name="actionbar_image_width">34dp</dimen>
+    <dimen name="actionbar_image_height">34dp</dimen>
+
+    <!--common region -->
+    <dimen name="padding_side_main_page">15dp</dimen>
+    <dimen name="padding_side_filter_page">16dp</dimen>
+    <dimen name="padding_side_content_page">17dp</dimen>
+
+    <dimen name="slideup_menu_width">330dp</dimen>
+    <dimen name="slideup_menu_height">48dp</dimen>
+    <dimen name="slideup_menu_narrow_spacing">2dp</dimen>
+    <dimen name="slideup_menu_normal_spacing">2dp</dimen>
+    <dimen name="slideup_menu_wide_spacing">10dp</dimen>
+    <dimen name="slideup_menu_bottom_margin">9dp</dimen>
+
+    <dimen name="common_line_height">48dp</dimen>
+    <dimen name="common_line_margin_narrow">10dp</dimen>
+    <dimen name="common_line_margin">15dp</dimen>
+    <dimen name="common_line_margin_wide">20dp</dimen>
+
+    <dimen name="comment_default_height">64dp</dimen>
+    <dimen name="comment_line_spacing">6dp</dimen>
+
+    <dimen name="comment_edit_hint_left_margin">17dp</dimen>
+    <dimen name="comment_edit_box_height">48dp</dimen>
+    <dimen name="comment_edit_button_width">67dp</dimen>
+
+
+    <dimen name="content_detail_image_height">247dp</dimen>
+    <dimen name="content_detail_image_bottom">7dp</dimen>
+    <dimen name="content_detail_thumb_width">54dp</dimen>
+    <dimen name="content_detail_thumb_height">48dp</dimen>
+    <dimen name="content_detail_thumb_spacing">2dp</dimen>
+    <dimen name="content_detail_thumb_border">3dp</dimen>
+    <dimen name="content_detail_line_spacing">10dp</dimen>
+
+    <dimen name="content_detail_vertical_margin">27dp</dimen>
+    <dimen name="content_detail_divider_width">42dp</dimen>
+    <dimen name="content_detail_filter_image_width">29dp</dimen>
+    <dimen name="content_detail_filter_image_height">11dp</dimen>
+    <dimen name="content_detail_filter_image_spacing">10dp</dimen>
+    
+    <dimen name="content_detail_button_width">75dp</dimen>
+    <dimen name="content_detail_button_height">35dp</dimen>
+
+    <dimen name="content_detail_bottom_margin">22dp</dimen>
+
+    <dimen name="photo_picker_thumb_height">74dp</dimen>
+
+
+    <!-- Text Size -->
+    <dimen name="text_size_title">20sp</dimen>
+    <dimen name="text_size_mytimetrace_filter">11sp</dimen>
+    <dimen name="text_size_photobucket_date">12sp</dimen>
+    <dimen name="text_size_photobucket_count">12sp</dimen>
+    <dimen name="text_size_photobucket_region">10sp</dimen>
+    <dimen name="text_size_filter_page_title">17sp</dimen>
+    <dimen name="text_size_filter_grid_text">12sp</dimen>
+    <dimen name="text_size_edit_page">16sp</dimen>
+    <dimen name="text_size_common">12sp</dimen>
+    <dimen name="text_size_comment_date">10sp</dimen>
+
+    <dimen name="text_size_comment_edit_hint">30sp</dimen>
+    
+    <dimen name="text_size_content_line">14sp</dimen>
+
+    <!--for card view-->
+    <dimen name="seekbar_label_length">70dp</dimen>
+    <dimen name="margin_tiny">4dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_large">32dp</dimen>
+    <dimen name="margin_huge">64dp</dimen>
+    <dimen name="horizontal_page_margin">@dimen/margin_medium</dimen>
+    <dimen name="vertical_page_margin">@dimen/margin_medium</dimen>
+
+    <!--for photo detail add information-->
+    <dimen name="add_info_member_height">20dp</dimen>
+    <dimen name="add_info_height">60dp</dimen>
+
+    <dimen name="custom_profile_image">50dp</dimen>
+    <dimen name="custom_profile_padding">2dp</dimen>
+    <dimen name="timeslider_text_height">30dp</dimen>
+
+</resources>

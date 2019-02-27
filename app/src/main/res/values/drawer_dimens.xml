@@ -1,0 +1,25 @@
+<!--
+  ~ Copyright (c) 2015-2020 Kairos, Inc.
+  ~
+  ~ Kairos is a registered trademark of Kairos Inc. Any copyright, patent and
+  ~ trademark notice(s) contained herein or in related code, files or
+  ~ documentation shall not be altered and shall be included in all copies and
+  ~ substantial portions of the software.
+  -->
+
+<resources>
+
+    <dimen name="drawer_max_width">240dp</dimen>
+    <dimen name="drawer_padding_left">16dp</dimen>
+    <dimen name="drawer_padding_right">16dp</dimen>
+    <dimen name="drawer_item_icon_top">0dp</dimen>
+    <dimen name="drawer_item_icon_bottom">0dp</dimen>
+    <dimen name="drawer_item_icon_left">9dp</dimen>
+    <dimen name="drawer_item_icon_right">9dp</dimen>
+    <dimen name="drawer_item_text_top">12dp</dimen>
+    <dimen name="drawer_item_text_bottom">12dp</dimen>
+    <dimen name="drawer_item_text_left">0dp</dimen>
+    <dimen name="drawer_item_text_right">5dp</dimen>
+    <dimen name="drawer_item_text_size">18sp</dimen>
+
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="android.widget.ImageView"/>
+<fullyQualifiedTypeName name="com.example.android.opengl.R.layout"/>
+<fullyQualifiedTypeName name="com.example.android.opengl.R.id"/>
+<fullyQualifiedTypeName name="android.provider.MediaStore.Images"/>
+<fullyQualifiedTypeName name="android.provider.MediaStore.Images.Thumbnails"/>
+<fullyQualifiedTypeName name="android.support.v4.widget.CursorAdapter"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,17 @@
+<!--
+  ~ Copyright (c) 2015-2020 Kairos, Inc.
+  ~
+  ~ Kairos is a registered trademark of Kairos Inc. Any copyright, patent and
+  ~ trademark notice(s) contained herein or in related code, files or
+  ~ documentation shall not be altered and shall be included in all copies and
+  ~ substantial portions of the software.
+  -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@color/drawer_item_pressed_background_color" android:state_focused="true" android:state_pressed="true"/>
+    <item android:drawable="@color/drawer_item_pressed_background_color" android:state_focused="false" android:state_pressed="true"/>
+    <item android:drawable="@color/drawer_item_selected_background_color" android:state_activated="true"/>
+    <item android:drawable="@android:color/transparent"/>
+
+</selector>

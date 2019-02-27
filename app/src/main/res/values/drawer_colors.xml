@@ -1,0 +1,18 @@
+<!--
+  ~ Copyright (c) 2015-2020 Kairos, Inc.
+  ~
+  ~ Kairos is a registered trademark of Kairos Inc. Any copyright, patent and
+  ~ trademark notice(s) contained herein or in related code, files or
+  ~ documentation shall not be altered and shall be included in all copies and
+  ~ substantial portions of the software.
+  -->
+
+<resources>
+
+    <color name="drawer_background_color">#FFFFFF</color>
+    <color name="drawer_text_color">#000000</color>
+    <color name="drawer_divider_color">#CCCCCC</color>
+    <color name="drawer_item_pressed_background_color">#EFEFEF</color>
+    <color name="drawer_item_selected_background_color">#E3E3E3</color>
+
+</resources>

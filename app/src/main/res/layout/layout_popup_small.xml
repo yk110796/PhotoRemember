@@ -1,0 +1,43 @@
+<!--
+  ~ Copyright (c) 2015-2020 Kairos, Inc.
+  ~
+  ~ Kairos is a registered trademark of Kairos Inc. Any copyright, patent and
+  ~ trademark notice(s) contained herein or in related code, files or
+  ~ documentation shall not be altered and shall be included in all copies and
+  ~ substantial portions of the software.
+  -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/common_line_margin_narrow"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@color/color_white">
+
+    <ListView
+        android:id="@+id/popup_list"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_line_height"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/common_line_margin_narrow"
+        android:textSize="15sp"
+        android:textColor="@color/color_black"
+        />
+
+    <!--<Button-->
+        <!--android:id="@+id/confirm_button"-->
+        <!--android:layout_width="@dimen/filter_selected_button_width"-->
+        <!--android:layout_height="@dimen/common_line_height"-->
+        <!--android:layout_margin="@dimen/card_insets"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:background="@color/color_black"-->
+        <!--android:gravity="center"-->
+        <!--android:textSize="18sp"-->
+        <!--android:text="@string/confirm"-->
+        <!--android:textStyle="bold"-->
+        <!--android:textColor="@color/color_white"-->
+        <!--android:visibility="gone"-->
+        <!--/>-->
+</LinearLayout>
