@@ -718,7 +718,7 @@ public class MyTimeTraceFragment extends Fragment implements OnMapReadyCallback,
             mClusterManager.addItems(event.getPhotos());
             mClusterManager.cluster();
             if (event.getBounds() != null) {
-                mMap.animateCamera(newLatLngBounds(event.getBounds(), 70));
+             //   mMap.animateCamera(newLatLngBounds(event.getBounds(), 70));
                 TLVIEW_MAP_MOVE = true;
             }
         } else { // big map
@@ -726,7 +726,7 @@ public class MyTimeTraceFragment extends Fragment implements OnMapReadyCallback,
             mPhotos = event.getPhotoMarkers();
             startDemo();
             if (event.getBounds() != null) {
-                mMap.animateCamera(newLatLngBounds(event.getBounds(), 70));
+           //     mMap.animateCamera(newLatLngBounds(event.getBounds(), 70));
                 TLVIEW_MAP_MOVE = true;
             }
         }

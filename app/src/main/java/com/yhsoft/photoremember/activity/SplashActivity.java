@@ -7,7 +7,10 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.annotation.RequiresApi;
+import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.ActionMenuView;
 import android.widget.Toast;
 
 import com.yhsoft.photoremember.database.DataBaseHelper;
@@ -23,17 +26,9 @@ public class SplashActivity extends AppCompatActivity {
 
     private DataBaseHelper mDbHelper;
 
-    private final Runnable nextActivityLauncher = new Runnable() {
-        @Override
-        public void run() {
-            startNextActivity();
-        }
-    };
-
-    final Handler handler = new Handler();
     private String TAG = this.getClass().getSimpleName();
-    private String[] permissions = {Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.ACCESS_FINE_LOCATION,
-            Manifest.permission.READ_SMS, Manifest.permission.ACCESS_LOCATION_EXTRA_COMMANDS, Manifest.permission.CALL_PHONE
+    private String[] permissions = {android.Manifest.permission.WRITE_EXTERNAL_STORAGE,  android.Manifest.permission.READ_SMS , android.Manifest.permission.ACCESS_FINE_LOCATION,
+            android.Manifest.permission.ACCESS_LOCATION_EXTRA_COMMANDS, android.Manifest.permission.CALL_PHONE, android.Manifest.permission.BLUETOOTH
     };
     private static final int PERMISSIONS_REQUEST_ACCOUNTS = 100;
 
@@ -43,35 +38,32 @@ public class SplashActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(activity_splash);
         startLoading();
-
-        // MediaSyncTask task = new MediaSyncTask();
-        // task.execute();
-       // handler.postDelayed(nextActivityLauncher, 2000);
     }
 
-    private void initDB(){
+    private void initDB() {
         getBus().register(this);
         mDbHelper = getInstance();
         mDbHelper.initDataBase();
     }
-    @RequiresApi(api = Build.VERSION_CODES.M)
-    private boolean arePermissionsEnabled(){
-        for(String permission : permissions){
-            if(checkSelfPermission(permission) != PackageManager.PERMISSION_GRANTED)
+
+
+    private boolean arePermissionsEnabled() {
+        for (String permission : permissions) {
+            if (checkSelfPermission(permission) != PackageManager.PERMISSION_GRANTED)
                 return false;
         }
         return true;
     }
 
-    @RequiresApi(api = Build.VERSION_CODES.M)
-    private void requestMultiplePermissions(){
+    private void requestMultiplePermissions() {
         List<String> remainingPermissions = new ArrayList<>();
         for (String permission : permissions) {
             if (checkSelfPermission(permission) != PackageManager.PERMISSION_GRANTED) {
                 remainingPermissions.add(permission);
             }
         }
-        requestPermissions(remainingPermissions.toArray(new String[remainingPermissions.size()]), PERMISSIONS_REQUEST_ACCOUNTS);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M)
+        ActivityCompat.requestPermissions(this,remainingPermissions.toArray(new String[remainingPermissions.size()]), PERMISSIONS_REQUEST_ACCOUNTS);
     }
 
     private void startLoading() {
@@ -80,13 +72,13 @@ public class SplashActivity extends AppCompatActivity {
             @Override
             public void run() {
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-                    if(arePermissionsEnabled())
-                      //  startLoginActivity();
+                    if (arePermissionsEnabled())
+                        //  startLoginActivity();
                         startNextActivity();
                     else
                         requestMultiplePermissions();
-                }else
-                  //  startLoginActivity();
+                } else
+                    //  startLoginActivity();
                     startNextActivity();
 
             }
@@ -98,16 +90,24 @@ public class SplashActivity extends AppCompatActivity {
         switch (requestCode) {
             case PERMISSIONS_REQUEST_ACCOUNTS:
                 if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                    startNextActivity();
+                  //  startNextActivity();
                     //Permission Granted Successfully. Write working code here.
-                } else {
-                    //You did not accept the request can not use the functionality.
-                    Toast.makeText(SplashActivity.this, "앱 사용 허가 승인 불가입니다.", Toast.LENGTH_SHORT).show();
-                    finish();
+                } else { //거부한 경험이 있으면 true 반환 허가하면 false 반환
+//                    if (ActivityCompat.shouldShowRequestPermissionRationale(this, permissions[0])
+//                            || ActivityCompat.shouldShowRequestPermissionRationale(this, permissions[1])
+//                             || ActivityCompat.shouldShowRequestPermissionRationale(this, permissions[2])) {
+//                        //You did not accept the request can not use the functionality.
+//                     //   Toast.makeText(SplashActivity.this, "앱 사용 허가 승인 불가입니다.", Toast.LENGTH_SHORT).show();
+//                     //   finish();
+//
+//                    } else { //퍼미션 취소가 없었다면
+//                        startNextActivity();
+//                    }
+                    break;
                 }
-                break;
         }
     }
+
     @Override
     protected void onDestroy() {
         super.onDestroy();
