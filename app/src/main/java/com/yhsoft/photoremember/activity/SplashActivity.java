@@ -90,19 +90,19 @@ public class SplashActivity extends AppCompatActivity {
         switch (requestCode) {
             case PERMISSIONS_REQUEST_ACCOUNTS:
                 if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                  //  startNextActivity();
+                    startNextActivity();
                     //Permission Granted Successfully. Write working code here.
                 } else { //거부한 경험이 있으면 true 반환 허가하면 false 반환
-//                    if (ActivityCompat.shouldShowRequestPermissionRationale(this, permissions[0])
-//                            || ActivityCompat.shouldShowRequestPermissionRationale(this, permissions[1])
-//                             || ActivityCompat.shouldShowRequestPermissionRationale(this, permissions[2])) {
-//                        //You did not accept the request can not use the functionality.
-//                     //   Toast.makeText(SplashActivity.this, "앱 사용 허가 승인 불가입니다.", Toast.LENGTH_SHORT).show();
-//                     //   finish();
-//
-//                    } else { //퍼미션 취소가 없었다면
-//                        startNextActivity();
-//                    }
+                    if (ActivityCompat.shouldShowRequestPermissionRationale(this, permissions[0])
+                            || ActivityCompat.shouldShowRequestPermissionRationale(this, permissions[1])
+                             || ActivityCompat.shouldShowRequestPermissionRationale(this, permissions[2])) {
+                        //You did not accept the request can not use the functionality.
+                        Toast.makeText(SplashActivity.this, "앱 사용 허가 승인 불가입니다.", Toast.LENGTH_SHORT).show();
+                        finish();
+
+                    } else { //퍼미션 취소가 없었다면
+                        startNextActivity();
+                    }
                     break;
                 }
         }
